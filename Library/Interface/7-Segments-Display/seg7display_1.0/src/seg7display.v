@@ -23,7 +23,7 @@ module seg7display#(parameter MODULES=1,
         DP_4=1, DP_5=1, DP_6=1, DP_7=1)
 (
     input wire [15:0] x_l,
-    input wire [15:0] x_h=0,
+    input wire [15:0] x_h,
     input wire clk,
     input wire reset,
     output reg [6:0] a_to_g,
